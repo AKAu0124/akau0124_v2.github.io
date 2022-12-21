@@ -150,64 +150,16 @@ nav ul li a{
 
 /* About Me */
 .selfie{
-  width: 300px;
+  width: 350px;
   height: auto;
   float: left;
-  margin-top: 80px;
-}
-
-.description{
-  text-align: justify;
-  float: right;
-  margin-top: 80px;
-}
-
-
-@media (max-width: 380px) {
-  .selfie{
-    width: 50%;
-    height: auto;
-    margin: 100px;
-    padding: 0;
-  }
-}
-
-@media (min-width: 420px) {
-  .selfie{
-    width: 50%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-.description{
-  text-align: justify;
-  margin: 0;
-  padding: 5px
-}
-
-
-
-@media (max-width: 900px) {
-  .selfie{
-    width: 50%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.description{
-  text-align: justify;
   justify-content: center;
-  margin: 0;
-  padding: 5px;
+  display: flex;
+
 }
 
-/* social */
-section.social i{
-  display: inline-block;
-  justify-content: center;
+.description{
+  text-align: justify;
+  margin-top: 80px;
 }
 
