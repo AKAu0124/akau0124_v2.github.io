@@ -155,11 +155,56 @@ nav ul li a{
   float: left;
   justify-content: center;
   display: flex;
+  border-radius: 16px;
+}
 
+.aboutHeader{
+  margin: 35px 0 35px 0;
 }
 
 .description{
   text-align: justify;
-  margin-top: 80px;
 }
 
+/* Responsive About Section */
+
+
+@media screen and (max-width: 370px) {
+
+  .selfie{
+  margin-left: 0;
+  width: 100%;
+  }
+
+  .description{
+    margin-left: 0;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 390px) {
+
+  .selfie{
+    width: 100%;
+  }
+
+  .description{
+    margin-left: 0;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .selfie{
+    width: 350px;
+    margin-right: 25px;
+  }
+
+  .description{
+    margin-left: 10px;
+    text-align: justify;
+  }
+}
+
+/* Skills */
