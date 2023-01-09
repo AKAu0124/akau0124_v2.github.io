@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-md" >
+    <nav class="navbar sticky-top navbar-expand-sm" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="logo" src="images/Logo.png" alt=""></a>
           <a href="#" class="toggle-button">
@@ -19,7 +19,7 @@
             <span class="bar"></span>
             <span class="bar"></span>
           </a>
-          <div class="collapse navbar-collapse " id="navbarNav" >
+          <div class="collapse navbar-collapse" id="navbarNav" >
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" href="#about">About</a>
@@ -33,6 +33,11 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#contact">Contact</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://drive.google.com/file/d/1ogzGOERem3VNSROBTcChP28iEOutz2DV/view?usp=share_link" download="Kwok Chun Au_CV" target="_blank">
+                    <button type="button" class="btn btn-outline-primary">Resume</button>
+                </a>
+                </li>
             </ul>
           </div>
         </div>
@@ -42,7 +47,7 @@
 
     <img src="./src/background.jpg" alt="">
 
-    <section>
+    <section class="about" id="about">
         <div class="container">
             <h3 class="aboutHeader">ABOUT ME</h3>
             <img class="selfie" src="./src/profile.jpg" alt="">
@@ -55,8 +60,8 @@
 
     <div class="clearfix"></div>
 
-    <section class="skills" id="skills"> <!--Web Development Technology-->
-        <div>
+    <section class="skills" id="skills"> <!--Web Development Technology-->    
+        <div class="description">
             <h3 class="classTitle">
                 SKILLS
             </h3>
@@ -65,35 +70,35 @@
             </p>
             <span>Development Tools I used</span>
         </div>
-        <div class="row">
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+        <div class="row  skillsIcon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/html5.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/css3.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/javascript.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-iconn">
+            <div class="col-auto col-sm-4 col-xl-4 skill-iconn">
                 <img class="icon" src="./src/python.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/react.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/jira.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/jquery.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/photoshop.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/figma.png" alt="">
             </div>
-            <div class="col-sm-3 col-sm-2 col-sm-2 skill-icon">
+            <div class="col-auto col-sm-4 col-xl-4 skill-icon">
                 <img class="icon" src="./src/bootstrap.png" alt="">
             </div>
         </div>
@@ -109,7 +114,41 @@
             <p>
                 More projects will be coming up soon
             </p>
-            Project Show case
+        </div>
+        <div class="row" id="showcase">
+            <div class="showbox box-01 col-auto col-sm-4 col-md-3">
+                <div class="inner">
+                    <a href="https://akfitnessproject.netlify.app/" class="test_click" target="_blank">
+                        <div class="flex_this">
+                            <h1 class="test_title">Fitness App</h1>
+                            <p>Build with React.js</p>
+                            <span class="test_link">Link</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="showbox box-02 col-auto col-sm-4 col-md-3">
+                <div class="inner">
+                    <a href="https://akau0124.github.io/" class="test_click" target="_blank">
+                        <div class="flex_this">
+                            <h1 class="test_title">Personal Website V1</h1>
+                            <p>Try to build my own personal website for the first time</p>
+                            <span class="test_link">Link</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="showbox box-03 col-auto col-sm-4 col-md-3">
+                <div class="inner">
+                    <a href="#" class="test_click" target="_blank">
+                        <div class="flex_this">
+                            <h1 class="test_title">Personal Website V2</h1>
+                            <p>Building more responsive personal website</p>
+                            <span class="test_link">Link</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -121,18 +160,43 @@
             <p>
                 If you want to say hi, have a chat or want to work togehter, please leave me a message and I will get back to you ASAP
             </p>
-            Contact Form Area
+            <div class="container">
+                <form accept-charset="utf-8" action="https://formspree.io/f/mbjbvrva" method="POST">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingName" name="name "placeholder="Name" required>
+                        <label for="floatingName">Name</label>
+                    </div> 
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="E-mail">
+                        <label for="floatingEmail">E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a Message" id="floatingMessage" style="height: 100px;"></textarea>
+                        <label for="floatingMessage">Leave Your Message Here...</label>
+                    </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <section> <!--Social Media-->
         <div class="social">
-            <a href="https://www.linkedin.com/in/akau0124/" target="_blank"><i class="fa fa-linkedin-square fa-5x"></i></a>
-            <a href="https://github.com/AKAu0124" target="_blank"><i class="fa fa-github-square fa-5x"></i></a>
+            <div class="row" id="socialIcon">
+                <div class="col-auto col-sm-1">
+                    <a href="https://www.linkedin.com/in/akau0124/" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                </div>
+                <div class="col-auto col-sm-1">
+                    <a href="https://github.com/AKAu0124" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+                </div>
+                
+            </div>
+            
         </div>
     </section>
-    AK AU<i class="fa fa-copyright" aria-hidden="true"> 2022</i>
-
+    
+    <div class="copyright"><i class="fa fa-copyright" aria-hidden="true">AK AU 2022</i> </div>
+    
 </body>
 </html>
 
